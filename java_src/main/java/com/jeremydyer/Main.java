@@ -28,7 +28,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         SiteToSiteClientConfig dataToSparkConfig = new SiteToSiteClient.Builder()
-                .url("http://10.0.1.28:8080/nifi")
+                .url("http://127.0.0.1:8080/nifi")
                 .portName("Data From Spark")
                 .buildConfig();
 
@@ -41,7 +41,7 @@ public class Main {
 
 
         SiteToSiteClientConfig dataFromSparkConfig = new SiteToSiteClient.Builder()
-                .url("http://10.0.1.28:8080/nifi")
+                .url("http://127.0.0.1:8080/nifi")
                 .portName("Data For Spark")
                 .buildConfig();
 

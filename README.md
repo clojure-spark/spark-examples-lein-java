@@ -4,8 +4,9 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
-
+```bash
+spark-submit --master local --class com.jeremydyer.Main target/spark-examples-lein-java-0.1.0-SNAPSHOT-standalone.jar
+```
 ## License
 
 Copyright © 2017 FIXME
